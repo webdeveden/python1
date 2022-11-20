@@ -16,3 +16,4 @@ for line in fh:
         lst.append(y)
 
 print(sum(lst))
+print()
