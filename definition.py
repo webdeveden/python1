@@ -1287,6 +1287,7 @@ class Apple:
             self.color = color
             self.flavor = flavor
       def __str__(self): # conversion to string function
+        # after calling the special method "str" define the way you want the string to be printed as shown below
             return "This Aplle is {} and {}".format(self.color, self.flavor)
 
 jonagold = Apple()
